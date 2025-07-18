@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hindi/Marathi Plagiarism Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Hindi/Marathi Plagiarism Checker</h1>
+
+        <label for="language">Select Language:</label>
+        <select id="language">
+            <option value="hindi">Hindi</option>
+            <option value="marathi">Marathi</option>
+        </select>
+
+        <label for="fileInput">Upload File (.txt, .pdf, .docx):</label>
+        <input type="file" id="fileInput" accept=".txt,.pdf,.docx" />
+
+        <button onclick="checkPlagiarism()">🔍 Check</button>
+
+        <div id="result" style="margin-top: 20px;"></div>
+
+        <a id="downloadLink" href="#" style="display:none;" class="btn" download="plagiarism_report.pdf">⬇️ Download Report</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

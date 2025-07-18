@@ -1,0 +1,7 @@
+flask
+scikit-learn
+nltk
+fpdf
+PyPDF2
+python-docx
+indic-nlp-library
